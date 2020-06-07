@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
+
 class Landing extends Component {
     render() {
         return(
@@ -8,20 +9,20 @@ class Landing extends Component {
                 <Grid className="landing-grid">
                     <Cell col ={12}>
                         <img 
-                        src="https://media.licdn.com/dms/image/C5103AQFGTykEh9MBcw/profile-displayphoto-shrink_200_200/0?e=1581552000&v=beta&t=ph6oOL27VQfmML79a-6paex4uMwiC-T69zZR8zIhOTA"
+                        src= "https://avatars1.githubusercontent.com/u/28875037?s=400&u=07257447d1da8de1d274a274c5829b1ce78e7230&v=4"
                         alt="Avatar"
                         className="avatar-image"
                         />
                         <div className="banner-text">
-                            <h1>Electronics & Telecommunication Engineer</h1>
+                            <h1>Abdul Ahad</h1>
                             <hr/>
                             <p>
-                                HTML/CSS | Javascript | Python | C | MySQL | Android 
+                                 Flutter | React | Java | Dart | Python | JavaScript | MySQL | Linux | Android
                             </p>
                             <div className="social-links">
 
                                 {/* LinkedIn */}
-                                <a href="https://www.linkedin.com/in/abdul-ahad-a6291b171" rel="noopener noreferrer"  target="_blank">
+                                <a href="https://www.linkedin.com/in/aiwithab" rel="noopener noreferrer"  target="_blank">
                                     <i className="fa fa-linkedin-square" aria-hidden="true" />
                                 </a>
                                  {/* GitHub */}
